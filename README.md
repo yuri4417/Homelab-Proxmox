@@ -13,6 +13,7 @@ This repository documents the architecture, configuration, and deployment of my 
 - **CPU:** Intel Core i5-3570
 - **RAM:** 16 GB DDR3 (2×8 GB)
 - **GPU:** None (integrated Intel HD Graphics)
+- **OS:** Proxmox VE 9.2.3
 - **Storage:**
   - 240 GB SSD
   - 480 GB HDD
