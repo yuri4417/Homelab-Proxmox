@@ -1,0 +1,7 @@
+Escreva e execute um script em Python para processar os arquivos .md localizados na pasta /home/yreis188/Documentos/Homelab-Proxmox/. O script deve fazer o seguinte:
+
+Listar todos os arquivos .md do diretório.
+Ler o conteúdo de cada um de forma iterativa.
+Fazer uma requisição para a API local (http://localhost:8080/v1/chat/completions) pedindo para traduzir o texto para ingles, levando em conta o contexto de documentação profissional de um homelab caseiro e padronizando os arquivos: Mantenha uma estrutura padrão entre todos os arquivos. Naqueles que não houverem informações suficientes para preencher a estrutura, deixe uma flag [PLACEHOLDER]
+Salvar o resultado em um novos arquivos com o sufixo _new.md
+Crie o código com tratamento de erros básico e me peça confirmação antes de rodar."

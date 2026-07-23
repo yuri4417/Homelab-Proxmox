@@ -1,0 +1,11 @@
+services:
+  filebrowser:
+    image: gtstef/filebrowser:stable
+    container_name: filebrowser_quantum
+    ports:
+      - "8080:80"
+    volumes:
+      - ./data:/home/filebrowser/data
+      - ~/docker:/ssd
+      - /mnt/data:/hdd
+    restart: unless-stopped

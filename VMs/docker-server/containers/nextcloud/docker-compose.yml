@@ -1,0 +1,39 @@
+services:
+  nextcloud-aio-mastercontainer:
+    image: ghcr.io/nextcloud-releases/all-in-one:latest
+    init: true
+    restart: always
+    container_name: nextcloud-aio-mastercontainer
+    ports:
+      - "8090:8080"
+    environment:
+      - NEXTCLOUD_DATADIR=/mnt/data/cloud
+      - APACHE_PORT=11000
+      - APACHE_IP_BINDING=0.0.0.0
+      - SKIP_DOMAIN_VALIDATION=true
+      - NEXTCLOUD_TRUSTED_CACERTS_DIR=/mnt/trusted_certs
+      - NEXTCLOUD_MOUNT=/mnt/data/syncthing_shared
+    volumes:
+      - nextcloud_aio_mastercontainer:/mnt/docker-aio-config
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - /opt/nextcloud/certs:/mnt/trusted_certs:ro
+
+  syncthing:
+    image: lscr.io/linuxserver/syncthing:latest
+    container_name: syncthing
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Sao_Paulo
+    volumes:
+      - ./syncthing_config:/config
+      - /mnt/data/syncthing_shared:/mnt/data/syncthing_shared
+    ports:
+      - "8384:8384"
+      - "22000:22000/tcp"
+      - "22000:22000/udp"
+      - "21027:21027/udp"
+    restart: unless-stopped
+volumes:
+  nextcloud_aio_mastercontainer:
+    name: nextcloud_aio_mastercontainer
