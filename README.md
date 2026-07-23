@@ -17,3 +17,9 @@ This repository documents the architecture, configuration, and deployment of my 
 - **Storage:**
   - 240 GB SSD
   - 480 GB HDD
+# Actual configuration
+| ID  | Name          | Type              | IP                 |
+| --- | ------------- | ----------------- | ------------------ |
+| 100 | mine-server   | Minecraft Server  | 192.168.1.100:8443 |
+| 200 | docker-server | Docker containers | 192.168.1.200      |
+| 201 | haos          | Home Assistant VM | 192.168.1.201:8123 |
