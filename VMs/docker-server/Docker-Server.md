@@ -1,6 +1,6 @@
 # Hardware
 - **CPU:** 2 cores
-- **RAM:** 8GB
+- **RAM:** 2GB
 - **OS**: Ubuntu Server
 - **Storage:**
 	- 32GB SSD (OS)
