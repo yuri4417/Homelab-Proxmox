@@ -21,5 +21,7 @@ This repository documents the architecture, configuration, and deployment of my 
 | ID  | Name          | Type              | IP                 |
 | --- | ------------- | ----------------- | ------------------ |
 | 100 | mine-server   | Minecraft Server  | 192.168.1.100:8443 |
+| 101 | ai-backend    | AI Inference LXC  | 192.168.1.101:8080 |
 | 200 | docker-server | Docker containers | 192.168.1.200      |
 | 201 | haos          | Home Assistant VM | 192.168.1.201:8123 |
+| 202 | zimaos        | ZimaOS VM         | 192.168.1.202:80   |

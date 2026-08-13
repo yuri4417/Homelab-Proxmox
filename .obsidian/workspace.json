@@ -1,0 +1,238 @@
+{
+  "main": {
+    "id": "7b4e8369774f952d",
+    "type": "split",
+    "children": [
+      {
+        "id": "3e4f6a802ae775f2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "39b6d72efffa89d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "VMs/ZimaOS/zimaOS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "zimaOS"
+            }
+          },
+          {
+            "id": "45e735db1acf954e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7854c76221a129ba",
+    "type": "split",
+    "children": [
+      {
+        "id": "2ba96fecfbdd0b20",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2c62d955e91c0ae4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "a661d7d8eaa27bc7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "a6a9913dfc1d916d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "097d085c2bc1467c",
+    "type": "split",
+    "children": [
+      {
+        "id": "3adb8eaf30a90a77",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "62f5df4251192de6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "VMs/docker-server/containers/NPM/NPM.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para NPM"
+            }
+          },
+          {
+            "id": "1ac499db7c10cdf2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "VMs/docker-server/containers/NPM/NPM.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para NPM"
+            }
+          },
+          {
+            "id": "d1e1c2983cd4997d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "fda3c5f300ccdffd",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "71e6115a338174b8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "VMs/docker-server/containers/NPM/NPM.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de NPM"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false
+    }
+  },
+  "active": "45e735db1acf954e",
+  "lastOpenFiles": [
+    "VMs/ZimaOS/zimaOS.md",
+    "VMs/ZimaOS/Grafana + Prometheus/Grafana + Prometheus.md",
+    "VMs/docker-server/containers/openclaw/OpenClaw.md",
+    "VMs/docker-server/containers/NPM/NPM.md",
+    "VMs/docker-server/containers/nextcloud/NextCloud.md",
+    "VMs/docker-server/containers/jellyfin/Jellyfin.md",
+    "VMs/docker-server/containers/jellyfin/R-stack/R-stack.md",
+    "VMs/docker-server/containers/filebrowser/FileBrowser.md",
+    "VMs/docker-server/containers/adguard/adguard.md",
+    "LXCs/mine-server/CraftyController.md",
+    "LXCs/ai-backend/AI Backend.md",
+    "VMs/docker-server/Docker-Server.md",
+    "README.md",
+    "VMs/Home Assistant/Home Assistant.md",
+    "LXCs/ai-backend",
+    "LXCs/Sem título.md",
+    "VMs/ZimaOS/Grafana + Prometheus",
+    "Sem título.md",
+    "VMs/ZimaOS",
+    "LXCs/Runtipi/Runtipi.md",
+    "LXCs/Runtipi/Runtipi",
+    "LXCs/Runtipi",
+    "VMs/docker-server/containers/openclaw",
+    "VMs/Home Assistant",
+    "VMs/docker-server/containers/jellyfin/arr-stack/R-stack.md",
+    "VMs/docker-server/containers/jellyfin/R-stack/docker-compose.yml",
+    "VMs/docker-server/containers/jellyfin/R-stack",
+    "VMs/docker-server/containers/jellyfin/arr-stack/docker-compose.yml",
+    "VMs/docker-server/containers/nextcloud/OpenCloud.md",
+    "VMs/docker-server/containers/opencloud/OpenCloud.md",
+    "VMs/docker-server/containers/arr-stack/arr-stack.md",
+    "VMs/docker-server/containers/OpenCloud/OpenCloud.md"
+  ]
+}
