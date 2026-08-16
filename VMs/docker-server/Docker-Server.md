@@ -25,13 +25,12 @@ Primary Docker host for self-hosted services. Runs Ubuntu Server with a secondar
 
 | Name        | Type          | Port(s)                      | Documentation    |
 | ----------- | ------------- | ---------------------------- | ---------------- |
-| [AdGuardHome](containers/adguard/adguard.md) | Network/DNS   | 8083 (UI), 53                | `adguard.md`     |
-| FileBrowser | File Explorer | 8080                         | `FileBrowser.md` |
-| Jellyfin    | Media         | 8096                         | `Jellyfin.md`    |
-| R-stack     | Media Stack   | 8090, 8989, 7878, 8191, 6767 | `R-stack.md`     |
-| Nextcloud   | Cloud Storage | 8091, 11000                  | `NextCloud.md`   |
-| NPM         | Reverse Proxy | 81 (UI), 80/443              | `NPM.md`         |
-
+| AdGuardHome | Network/DNS   | 8083 (UI), 53                | [`adguard.md`](containers/adguard/adguard.md)     |
+| FileBrowser | File Explorer | 8080                         | [`FileBrowser.md`](containers/filebrowser/FileBrowser.md) |
+| Jellyfin    | Media         | 8096                         | [`Jellyfin.md`](containers/jellyfin/Jellyfin.md)    |
+| Nextcloud   | Cloud Storage | 8091, 11000                  | [`NextCloud.md`](containers/nextcloud/NextCloud.md)   |
+| NPM         | Reverse Proxy | 81 (UI), 80/443              | [`NPM.md`](containers/NPM/NPM.md)         |
+| OpenClaw    | AI Agent      | 12789 (UI),                  | [`OpenClaw.md`](containers/openclaw/OpenClaw.md)         |
 ## Deployment
 
 ### 1. HDD Initialization
