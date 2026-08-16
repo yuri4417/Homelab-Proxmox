@@ -25,7 +25,7 @@ Primary Docker host for self-hosted services. Runs Ubuntu Server with a secondar
 
 | Name        | Type          | Port(s)                      | Documentation    |
 | ----------- | ------------- | ---------------------------- | ---------------- |
-| AdGuardHome | Network/DNS   | 8083 (UI), 53                | `adguard.md`     |
+| [AdGuardHome](containers/adguard/adguard.md) | Network/DNS   | 8083 (UI), 53                | `adguard.md`     |
 | FileBrowser | File Explorer | 8080                         | `FileBrowser.md` |
 | Jellyfin    | Media         | 8096                         | `Jellyfin.md`    |
 | R-stack     | Media Stack   | 8090, 8989, 7878, 8191, 6767 | `R-stack.md`     |
