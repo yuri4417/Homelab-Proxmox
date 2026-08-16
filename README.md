@@ -23,5 +23,5 @@ This repository documents the architecture, configuration, and deployment of my 
 | 100 | [mine-server](LXCs/mine-server/CraftyController.md)   | Minecraft Server  | 192.168.1.100:8443 |
 | 101 | [ai-backend](LXCs/ai-backend/AI-Backend.md)    | AI Inference LXC  | 192.168.1.101:8080 |
 | 200 | [docker-server](VMs/docker-server/Docker-Server.md) | Docker containers | 192.168.1.200      |
-| 201 | [haos](VMs/)          | Home Assistant VM | 192.168.1.201:8123 |
-| 202 | zimaos        | ZimaOS VM         | 192.168.1.202:80   |
+| 201 | [haos](VMs/Home%20Assistant/Home-Assistant.md)          | Home Assistant VM | 192.168.1.201:8123 |
+| 202 | [zimaos](VMs/ZimaOS/zimaOS.md)        | ZimaOS VM         | 192.168.1.202:80   |
