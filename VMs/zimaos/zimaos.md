@@ -41,5 +41,5 @@ ZimaOS is a lightweight, user-friendly operating system for self-hosting, design
 - ZimaOS uses a read-only root filesystem; persistent data lives in `/DATA/AppData/<app-id>/`.
 - The installer script is maintained by R0GGER; check GitHub for updates.
 - ZimaOS App Store apps run as Podman containers; Docker Compose is not natively supported (use custom YAML in app settings).
-- For monitoring stack, see `Grafana + Prometheus.md` in this directory.
+- For monitoring stack, see `grafana-prometheus/grafana-prometheus.md` in this directory.
 - Default credentials after first boot: set via web UI (no default password).
