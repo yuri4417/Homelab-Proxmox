@@ -22,27 +22,6 @@ This repository documents the architecture, configuration, and deployment of my 
 | **SSD**   | 240 GB                     |
 | **HDD**   | 480 GB                     |
 
-## Architecture
-
-```
-┌─────────────────────────────────────────────┐
-│           Proxmox VE 9.2.3                  │
-│                                             │
-│  ┌──────────────┐  ┌─────────────────────┐  │
-│  │  LXCs        │  │  VMs                │  │
-│  │              │  │                     │  │
-│  │ 100 - Mine   │  │ 200 - Docker        │  │
-│  │     Server   │  │     Server          │  │
-│  │              │  │                     │  │
-│  │ 101 - AI     │  │ 201 - Home          │  │
-│  │     Backend  │  │     Assistant       │  │
-│  │              │  │                     │  │
-│  │              │  │ 202 - ZimaOS        │  │
-│  └──────────────┘  │                     │  │
-│                    └─────────────────────┘  │
-└─────────────────────────────────────────────┘
-```
-
 ## Infrastructure
 
 ### LXC Containers
