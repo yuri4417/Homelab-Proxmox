@@ -38,6 +38,7 @@ This repository documents the architecture, configuration, and deployment of my 
 | 200 | docker-server | Docker Host     | 192.168.1.200       | [Docs](VMs/docker-server/docker-server.md)              |
 | 201 | haos          | Home Assistant  | 192.168.1.201:8123  | [Docs](VMs/home-assistant/home-assistant.md)           |
 | 202 | zimaos        | ZimaOS          | 192.168.1.202:80    | [Docs](VMs/zimaos/zimaos.md)                            |
+| 203 | overleaf-ce   | LaTeX Editor    | 192.168.1.203:80    | [Docs](VMs/overleaf-ce/overleaf-ce.md)                  |
 
 ## Docker Containers
 
@@ -74,6 +75,9 @@ Homelab-Proxmox/
 ├── VMs/
 │   ├── home-assistant/
 │   │   └── home-assistant.md
+│   ├── overleaf-ce/
+│   │   ├── overleaf-ce.md
+│   │   └── restart-tunnel.sh
 │   ├── zimaos/
 │   │   ├── grafana-prometheus/
 │   │   │   └── grafana-prometheus.md
